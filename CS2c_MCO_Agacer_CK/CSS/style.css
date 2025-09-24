@@ -1,0 +1,175 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background: #dfc183;
+}
+
+header, footer {
+    background: burlywood;
+    color: black;
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav a {
+    color: black;
+    margin: 0 10px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+nav a.active{
+    display: inline-block;
+    padding: 5px 20px;
+    border: 2px solid #80461a;
+    color: black;
+    background: #dfc183;
+    border-radius: 20px;
+
+
+}
+
+nav a:hover{
+    background: #284358;
+    color: white;
+}
+
+
+main {
+    display: flex;
+    margin: 20px;
+}
+section {
+    flex: 3;
+    padding: 20px;
+}
+
+section img {
+    border: 3px solid brown; 
+    border-radius: 8px;       
+    padding: 5px;             
+    margin-bottom: 15px;
+}
+
+.personal-info {
+  display: flex;
+  gap: 30px; 
+}
+
+.info-col {
+  flex: 1; 
+}
+
+.webdev-img {
+  display: flex;
+  flex-direction: column; 
+  gap: 20px; 
+  margin-top: 15px;
+}
+
+.webdev-item {
+  display: flex;        
+  align-items: flex-start;  
+  gap: 20px;            
+}
+
+.webdev-item img {
+  border: 2px solid burlywood;
+  border-radius: 8px;
+  padding: 5px;
+}
+
+.webdev-item p {
+  margin: 0;
+  font-size: 14px;
+  color: #333;
+}
+
+.webdev-left {
+  text-align: left; 
+}
+
+.webdev-left h4 {
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #000;
+}
+
+aside {
+    flex: 1;
+    background: #284358; 
+    padding: 20px;
+    margin-left: 10px;
+    color: white;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 10px;
+}
+th, td {
+    border: 2px solid burlywood;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background: #dfc183;
+    color: black;
+}
+.highlight {
+    background: #deb887;
+    font-weight: bold;
+    color: black;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+.hobby{
+    margin-bottom: 20px;
+    list-style: disc;
+}
+
+.hobby h4{
+    margin: 0 0 10px 0;
+}
+
+.content{
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.content img{
+    border-radius: 8px;
+}
+
+.content p{
+    margin: 0;
+}
+
+.botton{
+    display: inline-block;
+    padding: 5px 20px;
+    border: 2px solid #80461a;
+    color: black;
+    background: #dfc183;
+}
+
+.gitAc{
+    background-color: burlywood;
+    color: black;
+    height: 150vh;
+}
+
+.gitAc a{
+    text-decoration: none;
+    color: black;
+}
+
